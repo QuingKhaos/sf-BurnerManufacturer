@@ -2,7 +2,6 @@
 #include "BPFL/KhaosNameBPFL.h"
 #include "Net/UnrealNetwork.h"
 #include "BurnerManufacturerLogChannels.h"
-#include "FGCheatManager.h"
 #include "FGFactoryConnectionComponent.h"
 #include "FGGameState.h"
 
