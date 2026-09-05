@@ -48,7 +48,7 @@ void AKhaosBuildableManufacturerBurner::Factory_Tick(float dt)
 
 bool AKhaosBuildableManufacturerBurner::IsValidFuel(TSubclassOf<UFGItemDescriptor> Resource) const
 {
-	for (const TSoftClassPtr<UFGItemDescriptor> SoftFuelClass : mDefaultFuelClasses)
+	for (const TSoftClassPtr<UFGItemDescriptor>& SoftFuelClass : mDefaultFuelClasses)
 	{
 		if (SoftFuelClass.IsValid())
 		{
