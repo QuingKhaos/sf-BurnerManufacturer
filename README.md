@@ -6,7 +6,7 @@ Library mod that provides a buildable manufacturer base class that runs on solid
 
 ## For modders
 
-Create your production machine as a subclass `KhaosBuildableManufacturerBurner` instead of `FGBuildableManufacturer`. Set the power usage and default allowed fuel classes in the class properties and the rest is as usual.
+Create your production machine as a subclass `KhaosBuildableManufacturerBurner` instead of `FGBuildableManufacturer`. Set the power usage and default allowed fuel classes in the class properties. The burner manufacturer is looking for a `FGFactoryConnectionComponent` name prefixed with `FuelInput` as fuel input connection to pull the solid fuels from the conveyor belt.
 
 ## License
 
