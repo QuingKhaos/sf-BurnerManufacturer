@@ -3,7 +3,7 @@
 #include "CoreMinimal.h"
 #include "Modules/ModuleManager.h"
 
-class F###NAME###Module : public IModuleInterface
+class FBurnerManufacturerModule : public IModuleInterface
 {
 public:
 

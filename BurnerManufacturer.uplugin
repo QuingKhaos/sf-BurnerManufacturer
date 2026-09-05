@@ -3,13 +3,13 @@
 	"Version": 1,
 	"VersionName": "1.0.0",
 	"SemVersion": "1.0.0",
-	"FriendlyName": "###TITLE###",
-	"Description": "###DESC###",
+	"FriendlyName": "Burner Production Machines",
+	"Description": "Library mod that provides a buildable manufacturer base class that runs on fuel instead of electricity.",
 	"Category": "Modding",
 	"CreatedBy": "QuingKhaos",
 	"CreatedByURL": "https://github.com/QuingKhaos",
 	"DocsURL": "",
-	"MarketplaceURL": "https://ficsit.app/mod/###NAME###",
+	"MarketplaceURL": "https://ficsit.app/mod/BurnerManufacturer",
 	"SupportURL": "https://discord.gg/B3qJBE3M9W",
 	"CanContainContent": true,
 	"IsBetaVersion": false,
@@ -18,27 +18,12 @@
 	"BuiltInInitialFeatureState": "Active",
 	"Modules": [
 		{
-			"Name": "###NAME###",
+			"Name": "BurnerManufacturer",
 			"Type": "Runtime",
 			"LoadingPhase": "Default"
 		}
 	],
 	"Plugins": [
-		{
-			"Name": "KBFL",
-			"Enabled": true,
-			"SemVersion": "^2026.3.500"
-		},
-		{
-			"Name": "KDataForge",
-			"Enabled": true,
-			"SemVersion": "^2026.3.497"
-		},
-		{
-			"Name": "KhaosLib",
-			"Enabled": true,
-			"SemVersion": "^1.2.2"
-		},
 		{
 			"Name": "SML",
 			"Enabled": true,
