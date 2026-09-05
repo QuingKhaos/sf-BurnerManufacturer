@@ -71,6 +71,7 @@ public class BurnerManufacturer : ModuleRules
 
 		PublicDependencyModuleNames.AddRange(new string[] {
 			// ... add public dependencies that you statically link with here ...
+			"KhaosLib"
 		});
 
 		PrivateDependencyModuleNames.AddRange(new string[] {

@@ -25,6 +25,11 @@
 	],
 	"Plugins": [
 		{
+			"Name": "KhaosLib",
+			"Enabled": true,
+			"SemVersion": "^1.4.0"
+		},
+		{
 			"Name": "SML",
 			"Enabled": true,
 			"SemVersion": "^3.12.0"

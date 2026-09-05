@@ -4,6 +4,10 @@
 
 Library mod that provides a buildable manufacturer base class that runs on solid fuel instead of electricity. This mod does nothing on its own, but it is a dependency for other mods that make use of production machines that run on solid fuel.
 
+## For modders
+
+Create your production machine as a subclass `KhaosBuildableManufacturerBurner` instead of `FGBuildableManufacturer`. Set the power usage and default allowed fuel classes in the class properties. The burner manufacturer is looking for a `FGFactoryConnectionComponent` name prefixed with `FuelInput` as fuel input connection to pull the solid fuels from the conveyor belt.
+
 ## License
 
 This mod is licensed under the [GNU GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html). You are free to use, modify, and distribute this mod under the same terms of the license. If you make use of the Burner Production Machines in your own mod, your mod must be open-source, the source linked on SMR, and your mod also be licensed under the GNU GPLv3.
