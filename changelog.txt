@@ -1,4 +1,9 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.0.1
+Date: ????
+  Bugfixes:
+    - Adjust fuel info menu when power consumption changes due to overclocking/slooping.
+---------------------------------------------------------------------------------------------------
 Version: 1.0.0
 Date: 2026-09-05
   Features:
